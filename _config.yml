@@ -38,7 +38,7 @@ gems:
 author:
   name:              example
   url:               https://example.github.io
-  email:             example@example.com
+  email:             example@gmail.com
 
 sass:
   style: compressed
