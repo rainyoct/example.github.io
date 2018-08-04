@@ -2,7 +2,7 @@
 layout: post
 title: Image hosting
 category: 工具
-tags: 外链
+tags: 工具
 description: 外链
 ---
 
