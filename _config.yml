@@ -30,7 +30,7 @@ title:               oct
 name:                oct
 namecn:              我
 tagline:             'Spacecraft'
-description:         "我的博客"
+description:         ""
 url:                 https://rainyoct.github.io
 baseurl:             ''
 gems:
@@ -39,7 +39,7 @@ gems:
 
 # About/contact
 author:
-  name:              example
+  name:              oct
   url:               https://rainyoct.github.io
   email:             zry.cqu@gmail.com
 
