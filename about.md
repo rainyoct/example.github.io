@@ -13,7 +13,7 @@ Moving bricks in Chongqing university now.
 
 记点知识。
 
-## 关于
+## 代码及平台
 
 框架是 [Jekyll](http://jekyllrb.com/) ，个人完全不懂前端（也不懂后端），所以主题是fork的，谢谢。
 

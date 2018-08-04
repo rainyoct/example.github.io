@@ -1,4 +1,4 @@
-# use collections to realize category
+        # use collections to realize category
 collections:
   my_categories:
     output: true
@@ -12,7 +12,10 @@ sidebar:
   about:             关于
   articles:          文章
   programming:       编程
-  essay:             随笔
+  life:              生活
+  paper:             论文
+  tool:              工具
+  brick:             搬砖
 
 # Permalinks
 permalink:           pretty
@@ -23,7 +26,7 @@ highlighter: rouge
 excerpt_separator: "\n\n\n"
 
 # Setup
-title:               Oct
+title:               oct
 name:                oct
 namecn:              我
 tagline:             'Spacecraft'
