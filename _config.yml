@@ -11,11 +11,7 @@ sidebar:
   home:              主页
   about:             关于
   articles:          文章
-  programming:       编程
-  life:              生活
-  paper:             论文
-  tool:              工具
-  brick:             搬砖
+
 
 # Permalinks
 permalink:           pretty
