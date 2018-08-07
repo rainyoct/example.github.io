@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Parallel Trees
-category: 搬砖
+category: brick
 tags: 搬砖
 keywords: 论文
 ---
