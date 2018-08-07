@@ -18,6 +18,12 @@ F2FS is a full-fledged Linux file system designed for modern flash storage devic
 
 ## YAFFS2
 
+## JFFS2
+
+## UBIFS
+
+[概述](https://www.cnblogs.com/embedded-linux/p/6241817.html)
+
 ## LogFS
 
 论文：LogFS - finally a scalable flash file system
