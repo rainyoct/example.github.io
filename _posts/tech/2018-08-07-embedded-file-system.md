@@ -16,8 +16,14 @@ description: overview
 
 F2FS is a full-fledged Linux file system designed for modern flash storage devices and is slated for wider adoption in the industry. This paper describes key design and implementation details of F2FS. Our evaluation results underscore how our design decisions and tradeoffs lead to performance advantages, over other existing file systems.
 
+## YAFFS2
+
+## LogFS
+
+论文：LogFS - finally a scalable flash file system
+
 ## 对比
 
-[CSDN](https://blog.csdn.net/dhy5261302/article/details/64906612)
+[ChinaUnix](http://blog.chinaunix.net/uid-23381466-id-3411483.html)
 
 [Cramfs JFFS2 YAFFS2](https://blog.csdn.net/daofengdeba/article/details/7721340)
