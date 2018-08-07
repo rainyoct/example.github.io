@@ -15,3 +15,9 @@ description: overview
 [CSDN](https://blog.csdn.net/wojiushihuchao1/article/details/76081017)
 
 F2FS is a full-fledged Linux file system designed for modern flash storage devices and is slated for wider adoption in the industry. This paper describes key design and implementation details of F2FS. Our evaluation results underscore how our design decisions and tradeoffs lead to performance advantages, over other existing file systems.
+
+## 对比
+
+[CSDN](https://blog.csdn.net/dhy5261302/article/details/64906612)
+
+[Cramfs JFFS2 YAFFS2](https://blog.csdn.net/daofengdeba/article/details/7721340)
