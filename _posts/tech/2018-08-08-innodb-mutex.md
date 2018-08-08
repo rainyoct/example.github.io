@@ -17,9 +17,10 @@ description: overview
 [并发控制 mysql MyISAM表锁](https://www.cnblogs.com/qq78292959/archive/2013/01/30/2883109.html)
 
 概述:  
-&emsp;&emsp;相对其他数据库而言，MySQL的锁机制比较简单，其最显著的特点是不同的存储引擎支持不同的锁机制。  
 
-<font color=blue size=5>MyISAM</font>和``MEMORY``存储引擎采用的是表级锁（table-level locking）；
+相对其他数据库而言，MySQL的锁机制比较简单，其最显著的特点是不同的存储引擎支持不同的锁机制。  
+
+``MyISAM``和``MEMORY``存储引擎采用的是表级锁（table-level locking）；
 ``BDB``存储引擎采用的是页面锁（page-level locking），但也支持表级锁；  
 ``InnoDB``存储引擎既支持行级锁（row-level locking），也支持表级锁，但默认情况下是采用行级锁。  
 
