@@ -16,6 +16,8 @@ description: overview
 
 [F2FS源码分析之文件读写过程](https://www.cnblogs.com/honpey/p/4985735.html)
 
+[f2fs如何解决wandering tree](http://www.bubuko.com/infodetail-1094888.html)
+
 F2FS is a full-fledged Linux file system designed for modern flash storage devices and is slated for wider adoption in the industry. This paper describes key design and implementation details of F2FS. Our evaluation results underscore how our design decisions and tradeoffs lead to performance advantages, over other existing file systems.
 
 ## YAFFS2
