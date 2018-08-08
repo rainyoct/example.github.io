@@ -28,7 +28,7 @@ F2FS is a full-fledged Linux file system designed for modern flash storage devic
 
 [概述](https://www.cnblogs.com/embedded-linux/p/6241817.html)
 
-[我心目中的UBIFS之wandering tree](https://blog.csdn.net/beatbean/article/details/8522514)
+[ubifs- Wandering Tree](https://blog.csdn.net/fervor_heart/article/details/8908868)
 
 ## LogFS
 
