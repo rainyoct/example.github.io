@@ -20,10 +20,9 @@ description: overview
 
 相对其他数据库而言，MySQL的锁机制比较简单，其最显著的特点是不同的存储引擎支持不同的锁机制。  
 
-<font color="#66d9ef">MyISAM</font>
-``MyISAM``和``MEMORY``存储引擎采用的是表级锁（table-level locking）；
-``BDB``存储引擎采用的是页面锁（page-level locking），但也支持表级锁；  
-``InnoDB``存储引擎既支持行级锁（row-level locking），也支持表级锁，但默认情况下是采用行级锁。  
+**MyISAM**和**MEMORY**存储引擎采用的是表级锁（table-level locking）；  
+**BDB**存储引擎采用的是页面锁（page-level locking），但也支持表级锁；   
+**InnoDB**存储引擎既支持行级锁（row-level locking），也支持表级锁，但默认情况下是采用行级锁。  
 
 MySQL这3种锁的特性可大致归纳如下。  
     &emsp;&emsp;-表级锁：开销小，加锁快；不会出现死锁；锁定粒度大，发生锁冲突的概率最高,并发度最低。  
