@@ -5,6 +5,9 @@ category: technology
 tags: File System
 description: overview
 ---
+## NAND FLASH
+
+[FTL/out-of-placce](http://blog.51cto.com/alanwu/1427101)
 
 ## F2FS
 
@@ -23,6 +26,8 @@ F2FS is a full-fledged Linux file system designed for modern flash storage devic
 ## YAFFS2
 
 ## JFFS2
+
+[IBM](https://www.ibm.com/developerworks/cn/linux/l-jffs2/)
 
 ## UBIFS
 
