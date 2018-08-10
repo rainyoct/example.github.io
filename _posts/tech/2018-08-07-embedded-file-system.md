@@ -17,7 +17,7 @@ description: overview
 
 [CSDN](https://blog.csdn.net/wojiushihuchao1/article/details/76081017)
 
-[F2FS源码分析之文件读写过程](https://www.cnblogs.com/honpey/p/4985735.html)
+[f2fs创建一个文件的具体过程](https://blog.csdn.net/sunwukong54/article/details/45672155)
 
 [f2fs如何解决wandering tree](http://www.bubuko.com/infodetail-1094888.html)
 
