@@ -25,6 +25,8 @@ description: overview
 
 ## YAFFS2
 
+[ChinaUnix](http://blog.chinaunix.net/uid/9863638/cid-29990-list-1.html)
+
 ## JFFS2
 
 [IBM](https://www.ibm.com/developerworks/cn/linux/l-jffs2/)
