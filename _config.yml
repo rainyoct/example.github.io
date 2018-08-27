@@ -22,8 +22,8 @@ highlighter: rouge
 excerpt_separator: "\n\n\n"
 
 # Setup
-title:               rainyoct
-name:                rainyoct
+title:               oct
+name:                oct's
 namecn:              我
 tagline:             'Spacecraft'
 description:         ""
@@ -35,7 +35,7 @@ gems:
 
 # About/contact
 author:
-  name:              rainyoct
+  name:              oct
   url:               https://rainyoct.github.io
   email:             zry.cqu@gmail.com
 
