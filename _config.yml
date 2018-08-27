@@ -22,8 +22,8 @@ highlighter: rouge
 excerpt_separator: "\n\n\n"
 
 # Setup
-title:               oct
-name:                oct's
+title:               oct's
+name:                rainyoct
 namecn:              我
 tagline:             'Spacecraft'
 description:         ""
