@@ -22,10 +22,10 @@ highlighter: rouge
 excerpt_separator: "\n\n\n"
 
 # Setup
-title:               oct's
+title:               oct
 name:                rainyoct
 namecn:              我
-tagline:             'Spacecraft'
+tagline:             '\'s Spacecraft'
 description:         ""
 url:                 https://rainyoct.github.io
 baseurl:             ''
