@@ -31,7 +31,3 @@ Haskell语境下范畴中的元素对象是Haskell的类型，态射箭头是Has
 
 Lisp宏, 元编程, vim宏
 Lisp通过统一编码的S-表达式（树结构）来完成 Code is Data 这一特性。代码可以像数据一样被操作。  
-
-弱类型、强类型  
-静态、动态  
-Hindley-Milner类型系统  
