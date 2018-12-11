@@ -24,10 +24,10 @@ C++支持lambda匿名函数，作为某类STL中的函数参数传入，可以�
 在这个语境下，object及object间的态射关系（函数）组成了一个范畴，而functor为这些范畴间的映射，既映射了对象，也通过使用lambda函数映射了态射（函子在态射组合上必须满足分配律）。  
 Haskell语境下范畴中的元素对象是Haskell的类型，态射箭头是Haskell的函数。  
 自函子（Endofunctor）即输入输出类型相同的此类STL。  
-举例来说，<int,+>、<double,+>都满足半幺群的定义，一个函数 double func(int s, lambda f)就可以看作是一个从范畴<double,+>到范畴<int,+>的映射。你可以再传入一个lambda f函数来规定这个 int 的 + 怎么映射到 double 的 + 上去。这一整个func就是一个函子。  
-若func定义为 int func(int s, lambda f)，那它就可以作为一个自函子了。
-
-综上，我们可以以实例的角度理解这句名言：“一个单子(Monad)说白了不过就是自函子范畴上的一个幺半群(Monoid)而已,有什么难以理解的”。  
+举例来说，<int,+>、<double,+>都满足半幺群的定义，给它们一人定义一个态射吧，就叫 f1 和 f2。一个函数 double func(int s, lambda f)就可以看作是一个从范畴<int,f1>到范畴<double,f2>的映射。你可以再传入一个lambda f函数来辅助规定一下这个 int 的 f1 怎么映射到 double 的 f2 上去。这一整个func就是一个函子。  
+若func定义为 int func(int s, lambda f)，那它就可以作为一个自函子了。  
+事实上，很多模版都可以写成这样的形式，以减少函数重载所带来的重复代码，你只需要写一个对应的lambda匿名函数来规定怎么映射态射即可。  
+至此，我们从实例的角度理解了这句名言：“一个单子(Monad)说白了不过就是自函子范畴上的一个幺半群(Monoid)而已,有什么难以理解的”。  
 
 Lisp宏, 元编程, vim宏
 Lisp通过统一编码的S-表达式（树结构）来完成 Code is Data 这一特性。代码可以像数据一样被操作。  
