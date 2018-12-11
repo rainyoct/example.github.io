@@ -19,7 +19,7 @@ Code is Data, 函数也可以是返回值
 [不动点组合子](https://zh.wikipedia.org/wiki/%E4%B8%8D%E5%8A%A8%E7%82%B9%E7%BB%84%E5%90%88%E5%AD%90)  
 [浅谈Y组合子](http://jjyy.guru/y-combinator)  
 
-C++支持lambda匿名函数，作为某类STL中的函数参数传入，可以使代码更简洁。  
+C++支持lambda匿名函数，作为某类STL中的函数参数传入，能使代码更简洁。  
 事实上，简单来说（并不严谨），functor（函子）即为该类STL，其作用是指导如何使用传入的各参数及lambda函数。  
 在这个语境下，object及object间的态射关系（函数）组成了一个范畴，而functor为这些范畴间的映射，既映射了对象，也通过使用lambda函数映射了态射（函子在态射组合上必须满足分配律）。  
 Haskell语境下范畴中的元素对象是Haskell的类型，态射箭头是Haskell的函数。  
