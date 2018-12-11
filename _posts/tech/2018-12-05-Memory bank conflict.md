@@ -2,11 +2,11 @@
 layout: post
 title: Memory Bank Conflict
 category: technology
-tags: RTOS
-description: RTOS
+tags: Memory Bank
+description: Memory Bank
 ---
 
-What is memory bank?
+[What is memory bank?]()
 
 Why conflict?
 
