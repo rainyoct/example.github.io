@@ -26,6 +26,7 @@ description: overview
 ## YAFFS2
 
 [ChinaUnix](http://blog.chinaunix.net/uid/9863638/cid-29990-list-1.html)
+[cnblogs](https://www.cnblogs.com/hoys/p/3690951.html)  
 
 ## JFFS2
 
