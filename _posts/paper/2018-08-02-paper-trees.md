@@ -32,3 +32,7 @@ BSP模型
 ## Lock-free
 [What is lock free](http://www.cnblogs.com/gaochundong/p/lock_free_programming.html)  
 [无锁数据结构](http://blog.jobbole.com/90811/)  
+
+设计lock-free主要注意两点：  
+* 遇到困境别傻等，不断往满足条件的方向去努力，把路走活
+* 做事留一线，共享的东西不要了留个中间态，等大家都不要了再去真正扔掉
