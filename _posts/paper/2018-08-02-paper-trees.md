@@ -34,6 +34,7 @@ BSP模型
 * CAS, DwCAS, LL/SC 等primitive
 * ABA问题
 * 内存模型
+* 一些基本的lock-free数据结构
 
 [What is lock free](http://www.cnblogs.com/gaochundong/p/lock_free_programming.html)  
 [无锁数据结构](http://blog.jobbole.com/90811/)  
