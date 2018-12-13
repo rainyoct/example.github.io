@@ -7,7 +7,9 @@ description: functional programming
 ---
 
 [Python中的闭包与惰性计算](https://blog.csdn.net/Solo95/article/details/78844141)  
-Code is Data, 函数也可以是返回值
+Code is Data, 函数也可以是返回值  
+[柯里化](https://www.cnblogs.com/lovesqcc/p/5398758.html)  
+闭包和partial function都能实现，本质为通过保存前面的参数，不断地完善参数列表，从而方便地产生一系列定制函数。  
 
 正则表达式用状态机实现，非图灵完备。但[Lambda表达式是图灵完备的](http://chillyc.info/2017/Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%8E%E5%9B%BE%E7%81%B5%E5%AE%8C%E5%A4%87/)。  
 [Lambda演算](https://en.wikipedia.org/wiki/Lambda_calculus)  
