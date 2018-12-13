@@ -16,4 +16,5 @@ How to mitigate it?
 且物理地址本身也会通过[memory controller](https://blog.csdn.net/thisway_diy/article/details/79389530)映射到真实的存储单元上（算法也是保密的），因此，即便通过内核找到物理地址，也无法确保避免conflict。  
 
 ## 但是，CUDA中的shared memory是由程序直接访问的,与寄存器同级。
-[CUDA并行存储模型](https://www.cnblogs.com/liangliangdetianxia/p/3991042.html)
+[CUDA并行存储模型](https://www.cnblogs.com/liangliangdetianxia/p/3991042.html)  
+目的是实现线程间通信的延迟最小、保存公用的计数器或者block的公用结果。
