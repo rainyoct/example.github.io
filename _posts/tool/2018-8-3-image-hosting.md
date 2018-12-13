@@ -9,7 +9,12 @@ description: 外链
 ## 小图片可以用[Base64](https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001399413803339f4bbda5c01fc479cbea98b1387390748000)  
 ![Base64test]  
 
-高清图片就别用了，加密很卡，代码也长。
+高清图片就别用了，加密很卡，代码也长。  
+若想压缩PNG图片，可用 pngquant 或 pngyu。
+```Markdown
+![picName]
+[picName]:data:image/png;base64, ...
+```
 
 ## [秒速](http://www.miao.su)
 
