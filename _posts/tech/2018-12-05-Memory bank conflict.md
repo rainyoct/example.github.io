@@ -8,8 +8,8 @@ description: Memory Bank
 
 [What is memory bank?](https://blog.csdn.net/m0_37561165/article/details/81704977)  
 
-Why conflict?
-一个bank的地址解码器只有一个  
+Why conflict?  
+一个bank的地址解码器只有一个，如果多个线程访问同一个bank，就只能顺序操作。  
 
 How to mitigate it?  
 由于DRAM的物理地址是系统管理的，从程序员的视角来说，无法通过对虚拟地址的操作来避免硬件的conflict。  
