@@ -6,7 +6,7 @@ tags: 类型理论
 description: 类型理论
 ---
 
-##Types and Programming Languages  
+## Types and Programming Languages  
 [Software Foundations](https://softwarefoundations.cis.upenn.edu/)  
 [Great Works in Programming Languages](http://www.cis.upenn.edu/~bcpierce/courses/670Fall04/GreatWorksInPL.shtml)  
 
