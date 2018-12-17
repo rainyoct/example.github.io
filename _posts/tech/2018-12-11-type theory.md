@@ -18,4 +18,6 @@ weakly typed: have untrapped errors, which are forbidden behaviors (like C/C++)
 statically: reject ill behaved process in compile time
 dynamiclly: reject ill behaved process in run time
 
+[Abstract Interpreter](https://www.di.ens.fr/~cousot/AI/)  
+
 [Hindley-Milner类型系统](https://www.zybuluo.com/darwin-yuan/note/424724)  
