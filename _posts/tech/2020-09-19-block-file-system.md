@@ -6,7 +6,7 @@ tags: File System
 description: overview
 ---
 
-# 本篇总结主要包括VFS读写流程、块I/O机制、Open-channel SSD (主要为LightNVM)、块设备文件系统(主要为Btrfs及F2FS)
+# 本篇总结主要包括VFS读写流程、块I/O机制、Open-channel SSD (主要为LightNVM)、块设备文件系统(主要为Btrfs)
 
 ## VFS I/O Stack
 
@@ -30,22 +30,10 @@ make_request_fn钩子函数有VFS默认的，也可以由设备挂载时设置
 
 [LightNVM简介](https://blog.xiocs.com/archives/9/)
 
-## 
+## Btrfs
 
-[IBM](https://www.ibm.com/developerworks/cn/linux/l-jffs2/)
+[TOS](https://dl.acm.org/doi/abs/10.1145/2501620.2501623)
 
-## UBIFS
+Btrfs使用extent节点来减少分配开销，但与Ext4不同的是，Btrfs整个文件系统的布局为一棵B-Tree。因此，其具有更好的扩展性，如inode数量不受限(因为无需存放在固定的superblock中)，且扩容更加方便（无需重新布局元数据）等。
 
-[概述](https://www.cnblogs.com/embedded-linux/p/6241817.html)
-
-[ubifs- Wandering Tree](https://blog.csdn.net/fervor_heart/article/details/8908868)
-
-## LogFS
-
-论文：LogFS - finally a scalable flash file system
-
-## 对比
-
-[ChinaUnix](http://blog.chinaunix.net/uid-23381466-id-3411483.html)
-
-[Cramfs JFFS2 YAFFS2](https://blog.csdn.net/daofengdeba/article/details/7721340)
+Ext4采用Journaling的方式维持数据一致性，而Btrfs采用COW的方式，即overwrite操作会把数据页写在新的页上，旧页作废，同时修改父节点的相应指针。对于extent节点来说，由于COW的新页与旧的extent不再连惯，还存在着节点分裂的开销。而父节点的修改同样需要采用COW机制，这就使得对数据页的一次overwrite实际会被传播到root，即wandering tree问题。
