@@ -6,7 +6,7 @@ tags: File System
 description: overview
 ---
 
-# 本篇总结主要包括VFS读写流程、块I/O机制、Open-channel SSD (主要为LightNVM)、块设备文件系统(主要为Btrfs)
+## 本篇总结主要包括VFS读写流程、块I/O机制、Open-channel SSD (主要为LightNVM)、块设备文件系统(主要为Btrfs)
 
 ## VFS I/O Stack
 
