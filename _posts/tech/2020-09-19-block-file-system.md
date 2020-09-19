@@ -5,9 +5,9 @@ category: technology
 tags: File System
 description: overview
 ---
-## NAND FLASH
+## VFS I/O Stack
 
-[FTL/out-of-placce](http://blog.51cto.com/alanwu/1427101)
+[Linux VFS机制简析](https://www.cnblogs.com/jimbo17/archive/2004/01/13/10107318.html)
 
 ## F2FS
 

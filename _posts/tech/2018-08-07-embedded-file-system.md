@@ -9,7 +9,7 @@ description: overview
 
 [FTL/out-of-placce](http://blog.51cto.com/alanwu/1427101)
 
-## F2FS
+## F2FS (属于块设备文件系统，但也关注了wandering-tree等问题)
 
 论文：F2FS: A New File System for Flash Storage
 
