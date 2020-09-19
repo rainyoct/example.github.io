@@ -1,34 +1,36 @@
 ---
 layout: post
-title: 块设备文件系统
+title: 块设备文件系统与开放通道闪存
 category: technology
 tags: File System
 description: overview
 ---
+
+# 本篇总结主要包括VFS读写流程、块I/O机制、Open-channel SSD (主要为LightNVM)、块设备文件系统(主要为Btrfs及F2FS)
+
 ## VFS I/O Stack
 
 [Linux VFS机制简析](https://www.cnblogs.com/jimbo17/archive/2004/01/13/10107318.html)
 
-## F2FS
+## VFS与具体文件系统的配合 (page cache / write back 等等)
 
-论文：F2FS: A New File System for Flash Storage
+[Linux Kernel文件系统写I/O流程代码分析](https://www.cnblogs.com/jimbo17/archive/2004/01/13/10436222.html)
 
-[ChinaUnix](http://blog.chinaunix.net/uid/28989651/cid-180423-list-1.html)
+[bio 与块设备驱动](https://blog.csdn.net/jemmy858585/article/details/43937149)
 
-[CSDN](https://blog.csdn.net/wojiushihuchao1/article/details/76081017)
+[Linux块设备IO子系统](https://www.cnblogs.com/xiaojiang1025/p/6500557.html)
 
-[f2fs创建一个文件的具体过程](https://blog.csdn.net/sunwukong54/article/details/45672155)
+make_request_fn钩子函数有VFS默认的，也可以由设备挂载时设置
 
-[f2fs如何解决wandering tree](http://www.bubuko.com/infodetail-1094888.html)
+[浅谈Linux内核IO体系之磁盘IO](https://zhuanlan.zhihu.com/p/96391501)
 
-[outline](http://www.doc88.com/p-9062359972638.html)
+## LightNVM
 
-## YAFFS2
+[FAST'17](https://www.usenix.org/conference/fast17/technical-sessions/presentation/bjorling)
 
-[ChinaUnix](http://blog.chinaunix.net/uid/9863638/cid-29990-list-1.html)
-[cnblogs](https://www.cnblogs.com/hoys/p/3690951.html)  
+[LightNVM简介](https://blog.xiocs.com/archives/9/)
 
-## JFFS2
+## 
 
 [IBM](https://www.ibm.com/developerworks/cn/linux/l-jffs2/)
 
