@@ -22,7 +22,7 @@ description: Graphviz + CodeViz
 
 4. gcc编译还可能遇到[一些其他的问题](https://www.jianshu.com/p/b3ed2b3652ac)，比较繁琐。
 
-### 最后还是通过doxygen替代了CodeViz，大概这就是人生吧
+### 最后还是用安装简单的doxygen替代了CodeViz，大概这就是人生吧
 
 [Linux安装](https://www.cnblogs.com/274914765qq/p/4443328.html)（配置参数较老，需要参考Windows的选项手动配置）
 
