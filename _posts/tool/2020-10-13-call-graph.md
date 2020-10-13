@@ -24,7 +24,7 @@ description: Graphviz + CodeViz
 
 ### 最后还是用安装简单的doxygen替代了CodeViz，大概这就是人生吧
 
-
+<br>
 [Linux安装](https://www.cnblogs.com/274914765qq/p/4443328.html)（配置参数较老，需要参考Windows的选项手动配置）
 
 [Windows安装及配置](https://blog.csdn.net/benkaoya/article/details/79763668)
