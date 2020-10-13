@@ -18,4 +18,6 @@ description: Graphviz + CodeViz
 
 2. 可能会出现fatal error: bits/libc-header-start.h: No such file or directory等错误，这些都是编译gcc过程中产生的问题，需要sudo apt-get install gcc-multilib等方法补足编译环境。
 
-3. 编译老版本的gcc源码可能出现不兼容的类型名，需要手动修改一下源码。如：compilers/gcc-graph/gcc-4.6.2/gcc/config/i386/linux-unwind.h中的struct siginfo 需要修改为 struct siginfo_t.
+3. 编译老版本的gcc源码可能出现不兼容的类型名，需要手动修改一下源码。如：compilers/gcc-graph/gcc-4.6.2/gcc/config/i386/linux-unwind.h中的struct siginfo 需要修改为 struct siginfo_t（注意要把compiler install脚本中的解压命令给注释掉，不然白改了）。
+
+[一些其他的问题](https://www.jianshu.com/p/b3ed2b3652ac)
