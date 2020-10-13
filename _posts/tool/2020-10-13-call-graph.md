@@ -20,7 +20,7 @@ description: Graphviz + CodeViz
 
 3. 编译老版本的gcc源码可能出现不兼容的类型名，需要手动修改一下源码。如：compilers/gcc-graph/gcc-4.6.2/gcc/config/i386/linux-unwind.h中的struct siginfo 需要修改为 struct siginfo_t（注意要把compiler install脚本中的解压命令给注释掉，不然白改了）。
 
-4. gcc编译还可能遇到[一些其他的问题](https://www.jianshu.com/p/b3ed2b3652ac)，非常复杂。
+4. gcc编译还可能遇到[一些其他的问题](https://www.jianshu.com/p/b3ed2b3652ac)，比较繁琐。
 
 ### 最后还是通过doxygen替代了CodeViz，大概这就是人生吧
 
