@@ -24,6 +24,6 @@ description: Graphviz + CodeViz
 
 4. 最后还是通过doxygen替代了CodeViz，大概这就是人生吧
 
-[Linux安装](https://blog.csdn.net/shawncheer/article/details/87122760)
+[Linux安装](https://www.cnblogs.com/274914765qq/p/4443328.html)（配置参数较老，需要参考Windows的选项手动配置）
 
 [Windows安装及配置](https://blog.csdn.net/benkaoya/article/details/79763668)
