@@ -36,6 +36,7 @@ BSP模型
 * 内存模型
 * 一些基本的lock-free数据结构
 * [DCAS也并不是silver bullet](http://people.csail.mit.edu/shanir/publications/DCAS.pdf)  (废话，这世界哪有silver bullet)
+* [就连lock-free自己也不是](http://www.cs.umd.edu/~abadi/papers/latch-free-cidr2017.pdf)
 
 
 [What is lock free](http://www.cnblogs.com/gaochundong/p/lock_free_programming.html)  
